@@ -3,9 +3,9 @@ package tolerance
 import (
 	"errors"
 	"fmt"
-	predatormock "github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/metric"
+	predatormock "github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/metric"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

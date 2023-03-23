@@ -6,10 +6,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/client"
-	xhttp "github.com/odpf/predator/external/http"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/client"
+	xhttp "github.com/goto/predator/external/http"
+	"github.com/goto/predator/protocol/job"
 )
 
 //ProfileConfig config

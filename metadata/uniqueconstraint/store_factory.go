@@ -1,7 +1,7 @@
 package uniqueconstraint
 
 import (
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 const uniqueConstraintCacheExpirationSecond = 120

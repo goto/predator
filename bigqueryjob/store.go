@@ -2,7 +2,7 @@ package bigqueryjob
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 //Store to store information of bigquery job execution

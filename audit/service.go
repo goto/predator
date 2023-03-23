@@ -2,11 +2,11 @@ package audit
 
 import (
 	"fmt"
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/stats"
 	"time"
 
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
 )
 
 //Service as audit service

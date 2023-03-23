@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/odpf/predator/protocol/meta"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/meta"
+	"github.com/goto/predator/protocol/metric"
 
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol/job"
 )
 
 var (

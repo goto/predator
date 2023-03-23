@@ -1,9 +1,9 @@
 package builder
 
 import (
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/stats"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

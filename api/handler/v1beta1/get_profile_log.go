@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/util"
 )
 
 //GetProfileLog provide profile logs

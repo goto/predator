@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol/meta"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol/meta"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

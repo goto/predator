@@ -7,4 +7,4 @@ plugins:
     # proto file should be.
     # This is necessary while importing a proto file foo/a.proto from another
     # directory, e.g. bar/b.proto
-    opt: paths=source_relative,Modpf/predator/v1beta1/metrics_log.proto=github.com/odpf/predator/publisher/proto/odpf/predator/v1beta1,Modpf/predator/v1beta1/result_log.proto=github.com/odpf/predator/publisher/proto/odpf/predator/v1beta1
+    opt: paths=source_relative,Mgoto/predator/v1beta1/metrics_log.proto=github.com/goto/predator/publisher/proto/gotocompany/predator/v1beta1,Mgoto/predator/v1beta1/result_log.proto=github.com/goto/predator/publisher/proto/gotocompany/predator/v1beta1

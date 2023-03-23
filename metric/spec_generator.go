@@ -2,10 +2,10 @@ package metric
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/meta"
-	"github.com/odpf/predator/protocol/metric"
-	"github.com/odpf/predator/protocol/xlog"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/meta"
+	"github.com/goto/predator/protocol/metric"
+	"github.com/goto/predator/protocol/xlog"
 )
 
 type BasicMetricSpecGenerator struct {

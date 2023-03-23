@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/meta"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/meta"
 	"google.golang.org/api/googleapi"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/odpf/predator/metadata"
+	"github.com/goto/predator/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol/job"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

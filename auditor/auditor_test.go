@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/metric"
 	"github.com/stretchr/testify/assert"
 )
 

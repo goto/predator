@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/odpf/predator/api/handler"
+	"github.com/goto/predator/api/handler"
 )
 
 func New(v1beta1Routes RouteGroup) *mux.Router {

@@ -1,5 +1,5 @@
-NAME = "github.com/odpf/predator"
-PROTON_COMMIT := "5c0b3bb5df406f2d6ea0f20e2dc41bb89c5cfbe5"
+NAME = "github.com/goto/predator"
+PROTON_COMMIT := "246242731323907ffc7fb7fe24723b5b932a186c"
 LAST_COMMIT := $(shell git rev-parse --short HEAD)
 LAST_TAG := "$(shell git rev-list --tags --max-count=1)"
 PREDATOR_VERSION := "$(shell git describe --tags ${LAST_TAG})-next"
@@ -38,8 +38,8 @@ generate-db-resource:
 	@go generate ./db/migrations
 
 generate-proto:
-	@echo " > generating protobuf from odpf/proton"
-	@buf generate https://github.com/odpf/proton/archive/${PROTON_COMMIT}.zip#strip_components=1 --template buf.gen.yaml --path odpf/predator
+	@echo " > generating protobuf from goto/proton"
+	@buf generate https://github.com/goto/proton/archive/${PROTON_COMMIT}.zip#strip_components=1 --template buf.gen.yaml --path gotocompany/predator
 	@echo " > protobuf compilation finished"
 
 lint:

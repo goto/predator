@@ -1,9 +1,9 @@
 package message
 
 import (
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/publisher/proto/odpf/predator/v1beta1"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/publisher/proto/gotocompany/predator/v1beta1"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

@@ -3,7 +3,7 @@ package entity
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/odpf/predator/api/model"
-	xhttp "github.com/odpf/predator/external/http"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/api/model"
+	xhttp "github.com/goto/predator/external/http"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol/job"
 )
 
 //ProfileRequest request to start profile

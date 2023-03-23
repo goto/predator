@@ -1,13 +1,13 @@
 package table
 
 import (
-	"github.com/odpf/predator/protocol/query"
+	"github.com/goto/predator/protocol/query"
 	"testing"
 
 	"cloud.google.com/go/civil"
-	"github.com/odpf/predator/metric/common"
+	"github.com/goto/predator/metric/common"
 
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 
 	"github.com/stretchr/testify/assert"
 )

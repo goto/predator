@@ -3,7 +3,7 @@ package uniqueconstraint_test
 import (
 	"testing"
 
-	"github.com/odpf/predator/metadata/uniqueconstraint"
+	"github.com/goto/predator/metadata/uniqueconstraint"
 	"github.com/stretchr/testify/assert"
 )
 

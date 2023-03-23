@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 //Report as a struct to store audit result to DB

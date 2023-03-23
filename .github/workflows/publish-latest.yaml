@@ -28,4 +28,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Push latest predator image
-        run: env GOOS=linux GOARCH=amd64 make build && docker build -t docker.io/odpf/predator:latest . && docker push docker.io/odpf/predator:latest
+        run: env GOOS=linux GOARCH=amd64 make build && docker build -t docker.io/gotocompany/predator:latest . && docker push docker.io/gotocompany/predator:latest

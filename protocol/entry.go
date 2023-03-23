@@ -3,7 +3,7 @@ package protocol
 import (
 	"context"
 
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol/job"
 )
 
 type entryKey string

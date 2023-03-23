@@ -2,7 +2,7 @@ package tolerance
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 type EntityBasedStore struct {

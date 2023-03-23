@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/odpf/predator/metric/common"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/metric"
-	"github.com/odpf/predator/protocol/query"
+	"github.com/goto/predator/metric/common"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/metric"
+	"github.com/goto/predator/protocol/query"
 )
 
 const totalRecordsAlias = "total_records"

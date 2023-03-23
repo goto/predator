@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/metric"
 )
 
 var logger = log.New(os.Stdout, "INFO: ", log.Lshortfile|log.LstdFlags)

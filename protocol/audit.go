@@ -3,12 +3,12 @@ package protocol
 import (
 	"context"
 	"fmt"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/util"
 	"strings"
 	"time"
 
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/metric"
 )
 
 //AuditReport is the result of audit

@@ -3,8 +3,8 @@ package builder
 import (
 	"errors"
 	"fmt"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/stats"
 )
 
 type MultiTenancy struct {

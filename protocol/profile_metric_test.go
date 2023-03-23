@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 	"testing"
 	"time"
 

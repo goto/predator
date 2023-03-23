@@ -3,8 +3,8 @@ package publisher
 import (
 	"context"
 	"errors"
-	predatormock "github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
+	predatormock "github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

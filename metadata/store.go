@@ -3,13 +3,13 @@ package metadata
 import (
 	"context"
 	"fmt"
-	"github.com/odpf/predator/protocol/meta"
+	"github.com/goto/predator/protocol/meta"
 	"google.golang.org/api/googleapi"
 	"strings"
 
 	"cloud.google.com/go/bigquery"
 	"github.com/googleapis/google-cloud-go-testing/bigquery/bqiface"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 //Store store to get table metadata

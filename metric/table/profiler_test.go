@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/odpf/predator/metric/common"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/meta"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/metric/common"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/meta"
+	"github.com/goto/predator/protocol/metric"
 
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 	testifyMock "github.com/stretchr/testify/mock"
 )

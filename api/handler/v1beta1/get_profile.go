@@ -3,13 +3,13 @@ package v1beta1
 import (
 	"encoding/json"
 	"errors"
-	"github.com/odpf/predator/protocol/metric"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/protocol/metric"
+	"github.com/goto/predator/util"
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/protocol"
 )
 
 //GetProfile provide profile information
