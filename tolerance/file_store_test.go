@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

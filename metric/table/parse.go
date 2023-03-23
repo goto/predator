@@ -2,8 +2,8 @@ package table
 
 import (
 	"errors"
-	"github.com/odpf/predator/metric/common"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/metric/common"
+	"github.com/goto/predator/protocol/metric"
 )
 
 var metricParserMap = map[metric.Type]common.RowParserType{

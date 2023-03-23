@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 	netstatsd "github.com/netdata/go-statsd"
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/stats"
 	"sort"
 	"strings"
 	"time"

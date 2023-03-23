@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/stats"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

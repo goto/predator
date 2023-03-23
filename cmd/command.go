@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/odpf/predator/conf"
-	"github.com/odpf/predator/db"
-	"github.com/odpf/predator/server"
+	"github.com/goto/predator/conf"
+	"github.com/goto/predator/db"
+	"github.com/goto/predator/server"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"log"
 	"os"

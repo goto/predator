@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/mock"
 )
 

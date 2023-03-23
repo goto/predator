@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 	"github.com/googleapis/google-cloud-go-testing/storage/stiface"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"google.golang.org/api/iterator"
 	"io/ioutil"
 	"log"

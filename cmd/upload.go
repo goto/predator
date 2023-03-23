@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/odpf/predator/client"
-	xhttp "github.com/odpf/predator/external/http"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/client"
+	xhttp "github.com/goto/predator/external/http"
+	"github.com/goto/predator/protocol"
 	"log"
 	"time"
 )

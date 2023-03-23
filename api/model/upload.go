@@ -2,7 +2,7 @@ package model
 
 import (
 	"errors"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 type UploadRequest struct {

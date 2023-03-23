@@ -2,9 +2,9 @@ package query
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/meta"
-	"github.com/odpf/predator/protocol/query"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/meta"
+	"github.com/goto/predator/protocol/query"
 )
 
 //SQLExpressionFactory create custom SQL expression

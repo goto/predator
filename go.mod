@@ -1,4 +1,4 @@
-module github.com/odpf/predator
+module github.com/goto/predator
 
 go 1.18
 

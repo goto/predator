@@ -2,12 +2,12 @@ package profile
 
 import (
 	"errors"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/util"
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
 )
 
 type profileRecord struct {

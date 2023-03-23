@@ -3,7 +3,7 @@ package common
 import (
 	"cloud.google.com/go/civil"
 	"encoding/base64"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -35,7 +35,7 @@ jobs:
         run: make unit-test-ci
       - name: Install goveralls
         run: go install github.com/mattn/goveralls@latest
-      - name: Send coverage
-        env:
-          COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: goveralls -coverprofile=coverage.txt -service=github
+      # - name: Send coverage
+      #   env:
+      #     COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: goveralls -coverprofile=coverage.txt -service=github

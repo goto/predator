@@ -1,7 +1,7 @@
 package query_test
 
 import (
-	"github.com/odpf/predator/protocol/query"
+	"github.com/goto/predator/protocol/query"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

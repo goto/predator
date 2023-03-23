@@ -2,10 +2,10 @@ package v1beta1
 
 import (
 	"encoding/json"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/protocol/macros"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/protocol/macros"
 	"net/http"
 	"time"
 )

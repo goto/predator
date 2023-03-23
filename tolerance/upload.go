@@ -2,9 +2,9 @@ package tolerance
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
-	"github.com/odpf/predator/stats"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
+	"github.com/goto/predator/stats"
 	"golang.org/x/sync/errgroup"
 	"time"
 )

@@ -2,10 +2,10 @@ package metadata_test
 
 import (
 	"errors"
-	"github.com/odpf/predator/metadata"
-	predatormock "github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/meta"
+	"github.com/goto/predator/metadata"
+	predatormock "github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/meta"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

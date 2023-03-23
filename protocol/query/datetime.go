@@ -2,7 +2,7 @@ package query
 
 import (
 	"fmt"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/util"
 	"time"
 )
 

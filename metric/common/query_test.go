@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/odpf/predator/protocol/meta"
-	"github.com/odpf/predator/protocol/query"
+	"github.com/goto/predator/protocol/meta"
+	"github.com/goto/predator/protocol/query"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -3,7 +3,7 @@ package tolerance
 import (
 	"errors"
 	"fmt"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 //FileBasedStore is storage of tolerance spec that use file as storage

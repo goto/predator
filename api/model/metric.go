@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 )
 
 //Metric information about statistical measurement of a table resource

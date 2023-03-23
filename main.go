@@ -1,6 +1,6 @@
 package main
 
-import "github.com/odpf/predator/cmd"
+import "github.com/goto/predator/cmd"
 
 func main() {
 	cmd.Execute()

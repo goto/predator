@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/odpf/predator/metadata/uniqueconstraint"
+	"github.com/goto/predator/metadata/uniqueconstraint"
 )
 
 func TestCachedUniqueConstraintSource(t *testing.T) {

@@ -2,7 +2,7 @@ package tolerance
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"golang.org/x/crypto/ssh"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"

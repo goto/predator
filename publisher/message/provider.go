@@ -1,6 +1,6 @@
 package message
 
-import "github.com/odpf/predator/protocol"
+import "github.com/goto/predator/protocol"
 
 type Provider struct {
 	KeyBuilder   protocol.ProtoBuilder

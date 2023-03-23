@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gorilla/mux"
-	v1beta1 "github.com/odpf/predator/api/handler/v1beta1"
-	"github.com/odpf/predator/protocol"
+	v1beta1 "github.com/goto/predator/api/handler/v1beta1"
+	"github.com/goto/predator/protocol"
 	"log"
 	"net/http"
 	"time"

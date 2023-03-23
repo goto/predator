@@ -2,7 +2,7 @@ package stats
 
 import (
 	"fmt"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 	"strings"
 	"time"
 )

@@ -10,7 +10,7 @@ builds:
     flags:
       - -a
     ldflags:
-      - -s -w -X github.com/odpf/predator/conf.BuildVersion={{.Tag}} -X github.com/odpf/predator/conf.BuildCommit={{.FullCommit}}
+      - -s -w -X github.com/goto/predator/conf.BuildVersion={{.Tag}} -X github.com/goto/predator/conf.BuildCommit={{.FullCommit}}
     goos:
       - linux
       - darwin
@@ -55,5 +55,5 @@ dockers:
       - predator
     dockerfile: Dockerfile
     image_templates:
-      - 'docker.io/odpf/{{.ProjectName}}:{{ .Version }}'
-      - 'docker.io/odpf/{{.ProjectName}}:{{ .Version }}-amd64'
+      - 'docker.io/gotocompany/{{.ProjectName}}:{{ .Version }}'
+      - 'docker.io/gotocompany/{{.ProjectName}}:{{ .Version }}-amd64'

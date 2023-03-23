@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 )
 

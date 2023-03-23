@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/odpf/predator/api/model"
+	"github.com/goto/predator/api/model"
 	"io/ioutil"
 	"net/http"
 	"testing"
 	"time"
 
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
 	"github.com/stretchr/testify/assert"
 )
 

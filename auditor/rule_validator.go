@@ -3,9 +3,9 @@ package auditor
 import (
 	"fmt"
 
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/protocol"
 )
 
 //DefaultRuleValidator as a default rule validator

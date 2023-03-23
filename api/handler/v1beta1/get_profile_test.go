@@ -2,16 +2,16 @@ package v1beta1
 
 import (
 	"encoding/json"
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol/job"
 	"github.com/stretchr/testify/assert"
 )
 

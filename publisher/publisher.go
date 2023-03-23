@@ -3,8 +3,8 @@ package publisher
 import (
 	"context"
 	"fmt"
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/util"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/util"
 	"github.com/segmentio/kafka-go"
 	"google.golang.org/protobuf/proto"
 	"log"

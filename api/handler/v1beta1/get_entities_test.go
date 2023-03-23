@@ -3,9 +3,9 @@ package v1beta1
 import (
 	"encoding/json"
 	"errors"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/mock"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/mock"
+	"github.com/goto/predator/protocol"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

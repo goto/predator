@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME="github.com/odpf/predator"
+NAME="github.com/goto/predator"
 
 SYS=("linux" "darwin")
 ARCH=("386" "amd64")

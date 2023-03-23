@@ -3,8 +3,8 @@ package model
 import (
 	"time"
 
-	"github.com/odpf/predator/protocol"
-	"github.com/odpf/predator/protocol/job"
+	"github.com/goto/predator/protocol"
+	"github.com/goto/predator/protocol/job"
 )
 
 //AuditResult is result of audit

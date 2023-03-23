@@ -2,8 +2,8 @@ package v1beta1
 
 import (
 	"encoding/json"
-	"github.com/odpf/predator/api/model"
-	"github.com/odpf/predator/protocol"
+	"github.com/goto/predator/api/model"
+	"github.com/goto/predator/protocol"
 	"net/http"
 )
 

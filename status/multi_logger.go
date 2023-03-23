@@ -1,6 +1,6 @@
 package status
 
-import "github.com/odpf/predator/protocol"
+import "github.com/goto/predator/protocol"
 
 //MultiLogger log job status in multiple StatusLogger implementation
 type MultiLogger struct {

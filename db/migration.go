@@ -9,8 +9,8 @@ import (
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/golang-migrate/migrate/v4/source/httpfs"
-	"github.com/odpf/predator/conf"
-	dbv1beta1 "github.com/odpf/predator/db/migrations/v1beta1"
+	"github.com/goto/predator/conf"
+	dbv1beta1 "github.com/goto/predator/db/migrations/v1beta1"
 )
 
 // NewHTTPFSMigrator reads the migrations from httpfs and returns the migrate.Migrate

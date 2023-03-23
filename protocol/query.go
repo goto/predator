@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/odpf/predator/protocol/job"
+import "github.com/goto/predator/protocol/job"
 
 //Row is single table row the key of map is column name and the value is the cell value
 type Row map[string]interface{}

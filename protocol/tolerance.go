@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/odpf/predator/protocol/metric"
+	"github.com/goto/predator/protocol/metric"
 )
 
 //Comparator comparator of tolerance rule
